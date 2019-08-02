@@ -12,9 +12,8 @@ namespace WebApplication1
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
-			// master comment
-			
+            RouteConfig.RegisterRoutes(RouteTable.Routes); 
+			// comments
         }
     }
 }
